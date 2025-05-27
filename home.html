@@ -4,6 +4,7 @@
     <title>Magic Garden Childcare</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/home.css" />
+    <script src="assets/scripts/home.js"></script>
 </head>
 <body>
     <div class="banner">
@@ -45,7 +46,98 @@
 
                 <div class="column-seperator"><div></div></div>
 
-                <div style="text-align: center;"><img src="assets/images/placeholder.png" style="width: 100%; height: auto; border-radius: 15px;"></div>
+                <!--Slideshow Container-->
+                <div class="slideshow-container">
+
+                    <!--Fullsize Images With Numbers-->
+                    <div class="slide">
+                        <div class="slide-number">1 / 14</div>
+                        <img src="assets/images/home/babiesRoom-01.jpg" />
+                        <div class="text">Babies Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">2 / 14</div>
+                        <img src="assets/images/home/babiesRoom-02.jpg" />
+                        <div class="text">Babies Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">3 / 14</div>
+                        <img src="assets/images/home/babiesRoom-03.jpg" />
+                        <div class="text">Babies Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">4 / 14</div>
+                        <img src="assets/images/home/babiesRoom-04.jpg" />
+                        <div class="text">Babies Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">5 / 14</div>
+                        <img src="assets/images/home/babiesRoom-05.jpg" />
+                        <div class="text">Babies Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">6 / 14</div>
+                        <img src="assets/images/home/kinderRoom-01.jpg" />
+                        <div class="text">Kinder Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">7 / 14</div>
+                        <img src="assets/images/home/kinderRoom-02.jpg" />
+                        <div class="text">Kinder Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">8 / 14</div>
+                        <img src="assets/images/home/kinderRoom-03.jpg" />
+                        <div class="text">Kinder Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">9 / 14</div>
+                        <img src="assets/images/home/kinderRoom-04.jpg" />
+                        <div class="text">Kinder Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">10 / 14</div>
+                        <img src="assets/images/home/kinderRoom-05.jpg" />
+                        <div class="text">Kinder Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">11 / 14</div>
+                        <img src="assets/images/home/toddlerRoom-01.jpg" />
+                        <div class="text">Toddler Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">12 / 14</div>
+                        <img src="assets/images/home/toddlerRoom-02.jpg" />
+                        <div class="text">Toddler Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">13 / 14</div>
+                        <img src="assets/images/home/toddlerRoom-03.jpg" />
+                        <div class="text">Toddler Room</div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-number">14 / 14</div>
+                        <img src="assets/images/home/toddlerRoom-04.jpg" />
+                        <div class="text">Toddler Room</div>
+                    </div>
+
+                    <!--Next and Previous Buttons-->
+                    <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                </div>
             </div>
         </div>
     </div>
@@ -58,5 +150,7 @@
             <a href="https://maps.app.goo.gl/LJBHNkQ53VPhgd5v8" target="_blank" style="color: #444444; padding-left: 20px;">1 Linda Cres Ferntree Gully VIC 3156</a>
         </div>
     </div>
+
+    <script>moveSlide(0)</script>
 </body>
 </html>
