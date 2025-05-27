@@ -1,0 +1,39 @@
+/*----------------------------------------*/
+
+.banner {
+    background-color: #acc2a7;
+    height: 3em;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Handwriting';
+}
+
+.rooms {
+    display: grid;
+    background-color: #fff8f0;
+    border: 2px solid #807a74;
+    grid-template-columns: 48% 4% 48%;
+    padding: 10px;
+    text-align: left;
+}
+
+.care {
+    display: grid;
+    background-color: #fff8f0;
+    border: 2px solid #807a74;
+    grid-template-columns: 48% 4% 48%;
+    padding: 10px;
+    text-align: left;
+}
+
+.contact {
+    display: grid;
+    background-color: #aaaaaa;
+    border-top: 2px solid #888888;
+    grid-template-columns: 30% 30% 40%;
+    height: 150px;
+    align-content: center;
+}
+
+/*----------------------------------------*/

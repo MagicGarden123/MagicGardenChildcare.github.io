@@ -1,0 +1,58 @@
+/*----------------------------------------*/
+
+html {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e8;
+}
+
+body {
+    margin: 0px;
+    min-width: 1020px;
+    width: 100%;
+}
+
+/*----------------------------------------*/
+
+h1 {
+    text-align: center;
+}
+
+/*----------------------------------------*/
+
+.line-seperator {
+    background-color: #aaaaaa;
+    height: 1em;
+}
+
+.column-seperator {
+    align-content: center;
+    padding-left: 50%;
+}
+
+.column-seperator div {
+    width: 0px;
+    height: 90%;
+    border: 1px dashed #888888;
+}
+
+.text-seperator {
+    width: 90%;
+    height: 0px;
+    border: 1px solid #888888;
+    margin-left: 5%;
+}
+
+/*----------------------------------------*/
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 60%;
+}
+
+.content {
+    align-content: center;
+    text-align: center;
+}
+
+/*----------------------------------------*/
