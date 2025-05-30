@@ -3,12 +3,11 @@
 html {
     font-family: Arial, sans-serif;
     background-color: #fff4e8;
+    color: #232323;
 }
 
 body {
     margin: 0px;
-    min-width: 1020px;
-    width: 100%;
 }
 
 /*----------------------------------------*/
@@ -47,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 60%;
+    grid-template-columns: 1120px;
 }
 
 .content {

@@ -2,6 +2,7 @@
 
 .banner {
     background-color: #acc2a7;
+    min-width: 700px;
     height: 3em;
     align-content: center;
     text-align: center;
@@ -33,27 +34,34 @@
 .contact {
     display: grid;
     background-color: #aaaaaa;
+    color: #444444;
     border-top: 2px solid #888888;
     grid-template-columns: 30% 30% 40%;
-    height: 10em;
+    min-width: 1200px;
+    height: 7em;
     align-content: center;
+    padding-left: 20px;
+    line-height: 5px;
 }
 
 /*----------------------------------------*/
 
 .room-button {
     position: relative;
-    padding-left: 6%;
+    margin-left: 6%;
     width: 90%;
 }
 
 .room-button img {
+    border: 2px solid #232323;
+    border-radius: 15px;
     opacity: 1;
     display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    cursor: pointer;
 }
 
 .middle {
@@ -75,9 +83,32 @@
     opacity: 1;
 }
 
-.text {
-    background-color: #565656;
+.button {
+    transition: .5s ease;
+    background-color: #787878;
+    border: 2px solid #454545;
+    border-radius: 15px;
     color: white;
     font-size: 16px;
+    font-weight: bold;
     padding: 16px 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #565656;
+    border: 2px solid #232323;
+}
+
+/*----------------------------------------*/
+
+.link {
+    transition: .5s ease;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    padding-left: 1%;
 }
