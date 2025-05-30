@@ -112,3 +112,70 @@
 .link:hover {
     padding-left: 1%;
 }
+
+/*----------------------------------------*/
+
+@media screen and (max-width: 600px) {
+    .banner {
+        min-width: 0px;
+        font-size: 21px;
+    }
+
+    .about-us {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .about-us img {
+        display: none;
+    }
+
+    .rooms {
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .rooms-container {
+        font-size: 12px;
+    }
+
+    .room-button *:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .room-button img {
+        width: 50%;
+    }
+
+    .room-button:hover img {
+        opacity: 1;
+    }
+
+    .middle {
+        opacity: 1;
+    }
+
+    .button {
+        background-color: inherit;
+        color: inherit;
+        border: none;
+        font-size: 12px;
+        margin-left: 87%;
+        padding: 4px 8px;
+    }
+
+    .button:hover {
+        background-color: inherit;
+        border: none;
+    }
+
+    .contact {
+        grid-template-columns: 100%;
+        grid-template-rows: 37% 37% 30%;
+        min-width: 0px;
+        height: 9em;
+        font-size: 10px;
+        line-height: 1px;
+        padding-left: 10px;
+    }
+}

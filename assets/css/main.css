@@ -55,3 +55,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*----------------------------------------*/
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 90%;
+    }
+
+    .column-seperator {
+        display: none;
+    }
+}
