@@ -43,6 +43,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /*----------------------------------------*/
 
+.banner {
+    background-color: #acc2a7;
+    min-width: 700px;
+    height: 3em;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Handwriting';
+}
+
 .grid-container {
     display: grid;
     justify-content: center;
@@ -54,14 +64,55 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.footer {
+    display: grid;
+    background-color: #aaaaaa;
+    color: #444444;
+    border-top: 2px solid #888888;
+    grid-template-columns: 30% 30% 40%;
+    min-width: 1200px;
+    height: 7em;
+    align-content: center;
+    padding-left: 20px;
+    line-height: 5px;
+}
+
+/*----------------------------------------*/
+
+.link {
+    transition: .5s ease;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    padding-left: 1%;
+}
+
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
+    .banner {
+        min-width: 0px;
+        font-size: 21px;
+    }
+
     .grid-container {
         grid-template-columns: 90%;
     }
 
     .column-seperator {
         display: none;
+    }
+
+    .footer {
+        grid-template-columns: 100%;
+        grid-template-rows: 37% 37% 30%;
+        min-width: 0px;
+        height: 9em;
+        font-size: 10px;
+        line-height: 1px;
+        padding-left: 10px;
     }
 }

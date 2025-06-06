@@ -1,17 +1,20 @@
 /*----------------------------------------*/
 
-.values {
+.info {
     background-color: #fff8f0;
     border: 2px solid #807a74;
     padding: 10px;
     text-align: left;
 }
 
-.staff {
+.gallery {
+    display: grid;
     background-color: #fff8f0;
     border: 2px solid #807a74;
     padding: 10px;
     text-align: left;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
 }
 
 .text {
@@ -23,11 +26,7 @@
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
-    .values {
-        font-size: 12px;
-    }
-
-    .staff {
+    .info {
         font-size: 12px;
     }
 
