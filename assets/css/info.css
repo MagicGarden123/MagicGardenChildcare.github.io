@@ -2,36 +2,26 @@
 
 .values {
     background-color: #fff8f0;
-    border: 2px solid #807a74;
-    padding: 10px;
+    border: 0.15vw solid #807a74;
+    padding: 0.5vw;
     text-align: left;
 }
 
 .staff {
     background-color: #fff8f0;
-    border: 2px solid #807a74;
-    padding: 10px;
+    border: 0.15vw solid #807a74;
+    padding: 0.5vw;
     text-align: left;
 }
 
 .text {
     padding-left: 3%;
     padding-right: 3%;
-    font-size: 18px;
 }
 
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
-    .values {
-        font-size: 12px;
-    }
-
-    .staff {
-        font-size: 12px;
-    }
-
-    .text {
-        font-size: 12px;
-    }
 }
+
+/*----------------------------------------*/

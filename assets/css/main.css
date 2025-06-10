@@ -59,10 +59,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: max(363px, 20vw) max(1120px, 60vw) 20vw;
+    grid-template-columns: 20vw max(1120px, 60vw) 20vw;
 }
 
 .content {
+    grid-column: 2 / 3;
     width: 100%;
     min-width: 1120px;
 }
@@ -121,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .line-seperator {
         min-width: 0px;
-        height: 2vw;
+        height: 3vw;
     }
 
     .column-seperator {
@@ -140,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .content {
+        grid-column: auto;
         width: 90%;
         min-width: 0px;
         margin-left: 5vw;

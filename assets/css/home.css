@@ -1,5 +1,11 @@
 /*----------------------------------------*/
 
+.grid-container {
+    grid-template-columns: max(363px, 20vw) max(1120px, 60vw) 20vw;
+}
+
+/*----------------------------------------*/
+
 .vacancies {
     display: none;
 }
@@ -85,6 +91,12 @@
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
+    /*--------------------------------*/
+
+    .grid-container {
+        grid-template-columns: 100%;
+    }
+
     /*--------------------------------*/
 
     .vacancies {
