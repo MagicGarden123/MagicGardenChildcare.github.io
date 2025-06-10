@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #aaaaaa;
     border-top: 0.15vw solid #676767;
     border-bottom: 0.15vw solid #676767;
-    min-width: 1483px;
+    min-width: calc(1483px + 1vw);
     height: 1em;
 }
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-seperator {
     width: 90%;
     height: 0px;
-    border: 1px solid #888888;
+    border: 0.1vw solid #888888;
     margin-left: 5%;
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner {
     background-color: #acc2a7;
-    min-width: 1483px;
+    min-width: calc(1483px + 1vw);
     height: 3em;
     align-content: center;
     text-align: center;
@@ -71,22 +71,28 @@ h1, h2, h3, h4, h5, h6 {
     display: grid;
     background-color: #aaaaaa;
     color: #444444;
-    border-top: 2px solid #888888;
+    border-top: 0.15vw solid #888888;
     grid-template-columns: 30% 30% 40%;
     min-width: 1483px;
     height: 7em;
     align-content: center;
-    padding-left: 20px;
+    padding-left: 1vw;
     line-height: 5px;
 }
 
 .WTC {
-    background-color: #343434;
+    background-color: #fff8f0;
+    border: 0.15vw solid #807a74;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
     min-width: 330px;
-    height: 700px;
+    height: 20em;
+}
+
+.WTC p {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
 }
 
 /*----------------------------------------*/
@@ -105,10 +111,24 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
+    /*--------------------------------*/
+
+    html {
+        font-size: 3vw;
+    }
+
+    /*--------------------------------*/
+
     .line-seperator {
         min-width: 0px;
         height: 2vw;
     }
+
+    .column-seperator {
+        display: none;
+    }
+
+    /*--------------------------------*/
 
     .banner {
         min-width: 0px;
@@ -116,20 +136,37 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .grid-container {
-        grid-template-columns: 90%;
+        grid-template-columns: 100%;
     }
 
-    .column-seperator {
-        display: none;
+    .content {
+        width: 90%;
+        min-width: 0px;
+        margin-left: 5vw;
     }
 
     .footer {
         grid-template-columns: 100%;
-        grid-template-rows: 37% 37% 30%;
+        grid-template-rows: 35% 34% 30%;
         min-width: 0px;
-        height: 9em;
-        font-size: 10px;
-        line-height: 1px;
-        padding-left: 10px;
+        height: 19vw;
+        font-size: 2vw;
+        line-height: 0.15vw;
+        padding-left: 2vw;
     }
+
+    .WTC {
+        min-width: 0px;
+        height: 8em;
+        margin-bottom: 2vw;
+    }
+
+    .WTC p {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    /*--------------------------------*/
 }
+
+/*----------------------------------------*/
