@@ -3,16 +3,16 @@
 .about-us {
     display: grid;
     background-color: #fff8f0;
-    border: 2px solid #807a74;
+    border: 0.15vw solid #807a74;
     grid-template-columns: 48% 4% 48%;
-    padding: 10px;
+    padding: 0.5vw;
     text-align: left;
 }
 
 .rooms-container {
     background-color: #fff8f0;
-    border: 2px solid #807a74;
-    padding: 10px;
+    border: 0.15vw solid #807a74;
+    padding: 0.5vw;
     text-align: left;
 }
 
@@ -30,19 +30,19 @@
 }
 
 .room-button img {
-    border: 2px solid #232323;
-    border-radius: 15px;
+    border: 0.15vw solid #232323;
+    border-radius: 0.75vw;
     opacity: 1;
     display: block;
     width: 100%;
     height: auto;
-    transition: .5s ease;
+    transition: opacity .5s ease;
     backface-visibility: hidden;
     cursor: pointer;
 }
 
 .middle {
-    transition: .5s ease;
+    transition: opacity .5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -61,20 +61,21 @@
 }
 
 .button {
-    transition: .5s ease;
+    transition: border .5s ease;
+    transition: background-color .5s ease;
     background-color: #787878;
-    border: 2px solid #454545;
-    border-radius: 15px;
+    border: 0.15vw solid #454545;
+    border-radius: 0.75vw;
     color: white;
-    font-size: 16px;
+    font-size: max(17px, 0.75vw);
     font-weight: bold;
-    padding: 16px 32px;
+    padding: 0.75vw 1.4vw;
     cursor: pointer;
 }
 
 .button:hover {
     background-color: #565656;
-    border: 2px solid #232323;
+    border: 0.15vw solid #232323;
 }
 
 /*----------------------------------------*/

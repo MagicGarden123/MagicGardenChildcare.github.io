@@ -1,6 +1,7 @@
 /*----------------------------------------*/
 
 html {
+    font-size: max(17px, 0.75vw);
     font-family: Arial, sans-serif;
     background-color: #fff4e8;
     color: #232323;
@@ -20,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .line-seperator {
     background-color: #aaaaaa;
+    border-top: 0.15vw solid #676767;
+    border-bottom: 0.15vw solid #676767;
+    min-width: 1483px;
     height: 1em;
 }
 
@@ -45,23 +49,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .banner {
     background-color: #acc2a7;
-    min-width: 700px;
+    min-width: 1483px;
     height: 3em;
     align-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: max(50px, 2vw);
     font-family: 'Lucida Handwriting';
 }
 
 .grid-container {
     display: grid;
-    justify-content: center;
-    grid-template-columns: 1120px;
+    grid-template-columns: max(363px, 20vw) max(1120px, 60vw) 20vw;
 }
 
 .content {
-    align-content: center;
-    text-align: center;
+    width: 100%;
+    min-width: 1120px;
 }
 
 .footer {
@@ -70,17 +73,26 @@ h1, h2, h3, h4, h5, h6 {
     color: #444444;
     border-top: 2px solid #888888;
     grid-template-columns: 30% 30% 40%;
-    min-width: 1200px;
+    min-width: 1483px;
     height: 7em;
     align-content: center;
     padding-left: 20px;
     line-height: 5px;
 }
 
+.WTC {
+    background-color: #343434;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    min-width: 330px;
+    height: 700px;
+}
+
 /*----------------------------------------*/
 
 .link {
-    transition: .5s ease;
+    transition: padding-left .5s ease;
     color: inherit;
     font-weight: bold;
     text-decoration: none;
@@ -93,9 +105,14 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
+    .line-seperator {
+        min-width: 0px;
+        height: 2vw;
+    }
+
     .banner {
         min-width: 0px;
-        font-size: 21px;
+        font-size: 5vw;
     }
 
     .grid-container {
