@@ -53,11 +53,40 @@ img {
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
-    .info {
-        font-size: 12px;
+    /*--------------------------------*/
+
+    .line-seperator {
+        min-width: 0px;
     }
 
-    .text {
-        font-size: 12px;
+    .banner {
+        min-width: 0px;
     }
+
+    .grid-container {
+        grid-template-columns: 0px 100%;
+    }
+
+    .footer {
+        min-width: 0px;
+    }
+
+    /*--------------------------------*/
+
+    .info {
+        display: flex;
+        padding: 2vw;
+    }
+
+    .info img {
+        display: none;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    /*--------------------------------*/
 }
+
+/*----------------------------------------*/
