@@ -50,6 +50,10 @@ img {
     height: auto;
 }
 
+.mobile-image {
+    display: none;
+}
+
 /*----------------------------------------*/
 
 @media screen and (max-width: 600px) {
@@ -84,6 +88,18 @@ img {
 
     .img-container {
         display: none;
+    }
+
+    .mobile-image {
+        display: flex;
+        grid-column: 2 / 3;
+        width: 100%;
+        padding-top: 7vw;
+        justify-content: center;
+    }
+
+    .mobile-image img {
+        width: 80vw;
     }
 
     /*--------------------------------*/
