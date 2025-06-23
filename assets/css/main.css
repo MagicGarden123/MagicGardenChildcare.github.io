@@ -102,11 +102,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: padding-left .5s ease;
     color: inherit;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .link:hover {
-    padding-left: 1%;
+    padding-left: 0.5vw;
 }
 
 /*----------------------------------------*/
