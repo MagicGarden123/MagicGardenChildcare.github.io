@@ -148,11 +148,11 @@ h1, h2, h3, h4, h5, h6 {
 
     .footer {
         grid-template-columns: 100%;
-        grid-template-rows: 35% 34% 30%;
+        grid-template-rows: 45% 35% 20%;
         min-width: 0px;
-        height: 19vw;
+        height: 22vw;
         font-size: 2vw;
-        line-height: 0.15vw;
+        line-height: 0.5vw;
         padding-left: 2vw;
     }
 
