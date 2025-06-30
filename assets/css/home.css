@@ -39,6 +39,18 @@
     width: 90%;
 }
 
+#outsideButton {
+    grid-column: 1 / 4;
+    max-width: 33%;
+    justify-self: center;
+    margin-left: 0px;
+    margin-top: 2%;
+}
+
+#outsideMobileButton {
+    display: none;
+}
+
 .room-button img {
     border: 0.15vw solid #232323;
     border-radius: 0.75vw;
@@ -120,18 +132,31 @@
     }
 
     .rooms {
-        grid-template-columns: 100%;
-        grid-template-rows: 33% 33% 33%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
     }
 
     /*--------------------------------*/
 
+    #outsideButton {
+        display: none;
+        grid-column: 2 / 3;
+        max-width: none;
+        margin-left: 6%;
+        justify-self: left;
+    }
+
+    #outsideMobileButton {
+        display: inherit;
+    }
+
     .room-button *:not(:last-child) {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     .room-button img {
-        width: 50%;
+        width: 90%;
+        justify-self: center;
     }
 
     .room-button:hover img {
@@ -143,17 +168,14 @@
     }
 
     .button {
-        background-color: inherit;
+        background-color: #a9a9a9;
         color: inherit;
-        border: none;
         font-size: 3vw;
-        margin-left: 115%;
-        padding: 0px;
     }
 
     .button:hover {
-        background-color: inherit;
-        border: none;
+        background-color: #a9a9a9;
+        border: 0.15vw solid #454545;
     }
 
     /*--------------------------------*/
