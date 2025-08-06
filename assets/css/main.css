@@ -48,6 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------*/
 
 .banner {
+    background-image: url("../images/artwork-banner.jpeg");
+    background-size: 100% auto;
     background-color: #acc2a7;
     min-width: calc(1483px + 1vw);
     height: 3em;
@@ -55,6 +57,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-size: max(50px, 2vw);
     font-family: 'Lucida Handwriting';
+}
+
+.banner p {
+    background-color: rgba(172, 194, 167, 0.95);
+    border: 0.15vw solid #807a74;
+    border-radius: 0.75vw;
+    width: 40%;
+    min-width: 750px;
+    margin-left: 30%;
 }
 
 .grid-container {
@@ -118,6 +129,12 @@ h1, h2, h3, h4, h5, h6 {
     .banner {
         min-width: 0px;
         font-size: 5vw;
+    }
+
+    .banner p {
+        width: 90%;
+        min-width: 0px;
+        margin-left: 5%;
     }
 
     .grid-container {
