@@ -31,6 +31,17 @@
     grid-template-columns: 33% 33% 33%;
 }
 
+.AOC img {
+    border: 0.15vw solid #807a74;
+    margin-left: 5%;
+    width: 90%;
+    min-width: 330px;
+}
+
+.AOC-text {
+    display: none;
+}
+
 /*----------------------------------------*/
 
 .room-button {
@@ -134,6 +145,26 @@
     .rooms {
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+    }
+
+    .AOC img {
+        display: none;
+    }
+
+    .AOC-text {
+        display: block;
+        background-color: #fff8f0;
+        border: 0.15vw solid #807a74;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2vw;
+        width: 90%;
+    }
+
+    .AOC-text p {
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 
     /*--------------------------------*/

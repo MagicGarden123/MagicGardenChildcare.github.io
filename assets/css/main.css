@@ -81,21 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 5px;
 }
 
-.WTC {
-    background-color: #fff8f0;
-    border: 0.15vw solid #807a74;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-    min-width: 330px;
-    height: 20em;
-}
-
-.WTC p {
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-}
-
 /*----------------------------------------*/
 
 .link {
@@ -154,17 +139,6 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 2vw;
         line-height: 0.5vw;
         padding-left: 2vw;
-    }
-
-    .WTC {
-        min-width: 0px;
-        height: 8em;
-        margin-bottom: 2vw;
-    }
-
-    .WTC p {
-        padding-left: 2vw;
-        padding-right: 2vw;
     }
 
     /*--------------------------------*/
